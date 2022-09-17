@@ -1,0 +1,20 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="object.dispatch" />
+          <option value="django.contrib.auth.mixins.AccessMixin.dispatch" />
+          <option value="bool.is_draft" />
+          <option value="bool.quiz" />
+          <option value="quiz_app.mixins.GetObjectMixin.kwargs" />
+          <option value="quiz_app.mixins.GetObjectMixin.model" />
+          <option value="quiz_app.mixins.GetCheckedObjectMixin.model" />
+          <option value="quiz_app.mixins.GetCheckedObjectMixin.kwargs" />
+          <option value="quiz_app.permissions.IsThisQuizNotADraftPermission.get_object" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

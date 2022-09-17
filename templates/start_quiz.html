@@ -21,7 +21,9 @@
             {% for question in questions %}
                 <a href="{{ quiz_reply_url }}?question={{ forloop.counter0 }}">
                     <button style="margin-bottom: 5px;width: 150px;" type="button"
-                            class="btn btn-secondary {% active forloop.counter0 questions %}">{{ forloop.counter }}. {{ question.question }}</button>
+                            class="btn btn-secondary {% active forloop.counter0 questions %}">{{ forloop.counter }}. {{ question.question }}
+                        {% answered_question question %}
+                    </button>
                 </a><br>
             {% endfor %}
         </div>
